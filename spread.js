@@ -22,7 +22,7 @@ function exibirTelefones (telefone1, telefone2) {
     console.log(`ligar para ${telefone2}`);
 }
 
-// exibirTelefones(estudante.telefones[0], estudante.telefones[1]);
+exibirTelefones(estudante.telefones[0], estudante.telefones[1]);
 
 exibirTelefones(...estudante.telefones);
 

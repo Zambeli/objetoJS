@@ -6,22 +6,22 @@ const estudante = {
 }
 
 estudante['telefone'] = '55991893368'
-// estudante.telefone = '55991893368'
+estudante.telefone = '55991893368'
 
-// console.log(estudante['telefone']);
-// // console.log(estudante.telefone);
+console.log(estudante['telefone']);
+// console.log(estudante.telefone);
 
-// console.log(estudante);
+console.log(estudante);
 
 estudante.nome = 'Gusta'
 
-// console.log(estudante);
+console.log(estudante);
 
 const estudante2 = {}
 
 estudante2.nome = 'Ana maria'
 
-// console.log(estudante2);
+console.log(estudante2);
 
 
 
@@ -39,25 +39,25 @@ const objPersonagem = {
 delete objPersonagem.aliado
 delete objPersonagem['status']
 
-// console.log(objPersonagem);
+console.log(objPersonagem);
 
 const delProp = delete objPersonagem.aliado
 const delPropInexistente = delete objPersonagem["endereco"]
  
-// console.log(delProp) //true
-// console.log(delPropInexistente) //true
+console.log(delProp) //true
+console.log(delPropInexistente) //true
 
 
 
-// const pessoa = {
-//     nome: "Bruce Banner",
-//     dataNascimento: "25/01/1980",
-//     carteiraIdentidade: "997776-X",
-//     email: "profbanner@email.com",
-//     telefone: "+552877776666",
-//     cidade: "Cachoeiro de Itapemirim",
-//     estado: "ES"
-// }
+const pessoa1 = {
+    nome: "Bruce Banner",
+    dataNascimento: "25/01/1980",
+    carteiraIdentidade: "997776-X",
+    email: "profbanner@email.com",
+    telefone: "+552877776666",
+    cidade: "Cachoeiro de Itapemirim",
+    estado: "ES"
+}
 
 
 const pessoa = {

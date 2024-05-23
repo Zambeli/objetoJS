@@ -18,8 +18,8 @@ estudante.enderecos.push({
     complemento: '1'
 })
 
-// console.log(estudante.enderecos)
-// console.log(estudante.enderecos[1])
+console.log(estudante.enderecos)
+console.log(estudante.enderecos[1])
 
 const listaEnderecosComComplemento = estudante.enderecos.filter(endereco => endereco.complemento)
 
